@@ -885,63 +885,6 @@ def cek_opsi():
 	sol().print(mark(dah, style='green'))
 	exit()
 
-def jalan(z):
-    for e in z + "\n":
-        sys.stdout.write(e)
-        sys.stdout.flush()
-        time.sleep(0.04)
-def mlaku(z):
-    for e in z + "\n":
-        sys.stdout.write(e)
-        sys.stdout.flush()
-        time.sleep(0.03)
-def kontol():
-    os.system("clear")
-    print(f"""    
-\033[95m██████╗░░█████╗░██████╗░██╗░░░██╗░██████╗
-\33[95m██╔══██╗██╔══██╗██╔══██╗██║░░░██║██╔════╝
-\033[95m██████╦╝███████║██████╔╝██║░░░██║╚█████╗░
-\33[1;32m██╔══██╗██╔══██║██╔══██╗██║░░░██║░╚═══██╗
-\33[1;92m██████╦╝██║░░██║██║░░██║╚██████╔╝██████╔╝
-\x1b[0;34m╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═════╝░
-\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\x1b[0;34m█  \33[mGithub: https://github.com/jepribarus
-\x1b[0;34m█  \33[mFacebook: Strovmirviaska
-\x1b[0;34m█  \33[mWhatsApp: Not WhatsApp
-\x1b[0;34m█  \33[mTools : \33[1;96mPremium
-\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
-def janda_sebalah():#line:42
-  try :#line:43
-    os .system ('clear')
-    kontol()
-    print (f"""
-{U}[{P}1{U}]{P} Tanya Licensi Trial
-{U}[{P}2{U}]{P} Masukan Api Key
-{U}[{P}3{U}]{P} Log-Out {U}[{H}Exit{U}]{H}
-""")#line:49
-    OOO00O0OOO00OO00O =input (f"{H}[{P}?{H}]{P} Choose :{K} ")#line:50
-    if OOO00O0OOO00OO00O in ['1','01']:#line:51
-      print (f"{H}[{P}!{H}]{P} Send Message..");time .sleep (3 );os .system ('xdg-open https://wa.me/6282290885204?text=Bang+Kok+kamu+ganteng+sih');exit ()#line:52
-    elif OOO00O0OOO00OO00O in ['2','02']:#line:53
-      O000O000OOO000OOO =input (f"{H}[{P}?{H}]{P} Api Key :{K} ")#line:54
-      if len (O000O000OOO000OOO )==0 :#line:55
-        exit (f"{P}[{M}!{P}]{M} Jangan Kosong")#line:56
-      else :#line:57
-        with requests .Session ()as O0O0OO0O0O00OOOO0 :#line:58
-          OOO00OO00O0O0OOOO =O0O0OO0O0O00OOOO0 .get (f'https://app.cryptolens.io/api/key/activate?token=WyIxNjcwNDIyNiIsIlRPU0dITWFyT25aYXkwUzYwRVhXN0MwZlB4ZnRXeFZuN1R6TnMrV2UiXQ==&ProductId=14793&Key={O000O000OOO000OOO}&Sign=True').json ()['licenseKey']#line:59
-          open ('apikey.txt','w').write (O000O000OOO000OOO )#line:60 #ganti token & id om
-          print (f"{H}[{P}*{H}]{P} Expired :{K} {OOO00OO00O0O0OOOO['expires'].split('T')[0]}");time .sleep (2 );login()#line:61
-    elif OOO00O0OOO00OO00O in ['3','03']:#line:62
-      exit ()#line:63
-    else :#line:64
-      exit (f"{P}[{M}!{P}]{M} Wrong Input")#line:65
-  except (KeyError ):#line:66
-    exit (f"{P}[{M}!{P}]{M} Api Key Invalid")#line:67
-  except Exception as O0OO00OOO000OOO00 :#line:68
-    exit (f"{P}[{M}!{P}]{M} {O0OO00OOO000OOO00}")#line:69
-
-balmond = O+"["+J+"•"+O+"]"
-
 def lah():
 	print("\r"+balmond+m+" Total ID : "+str(len(id))+"                     ")
 	input(balmond+m +" Mode Pesawat 5 Detik Dan Tekan Enter Untuk Mulai Crack ")
